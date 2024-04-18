@@ -33,6 +33,7 @@ class BookLinkedList:
             self.head = current.next
             current = None
             return
+        
         while current is not None:
             if current.book_name == book_name:
                 break
