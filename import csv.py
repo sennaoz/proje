@@ -7,6 +7,8 @@ class Node:
         self.publisher = publisher
         self.next = None
 
+
+
 class BookLinkedList:
     def __init__(self):
         self.head = None
